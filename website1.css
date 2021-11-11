@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fl{
+    float: left;
+    margin-left: 10%;
+}
+
+.fr{
+    float: right;
+    margin-right: 10%;
+}
+
+.new{
+    float: left;
+    margin-left: 2.5%;
+}
+
+.clr{
+    clear: both;
+}
+
+/* Head section start */
+
+.head{
+    background-color: rgb(90, 89, 89);
+    width: 100%;
+    height: 40px;
+}
+
+.head a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    margin: 10px;
+}
+
+/* Head section end */
+
+
+/* left to right nav bar section start */
+
+.nav1{
+    height: 80px;
+    width: 100%;
+    background-color:dodgerblue;
+}
+
+.title{
+    padding: 20px 0;
+    font-weight: 900;
+}
+
+.title a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.nav ul li{
+    float: left;
+    list-style: none;
+    padding: 30px 10px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul li a i{
+    padding-right: 5px;
+}
+
+/* left to right nav bar section start */
+
+/* mid section start */
+
+.mid{
+    margin-top: 20px;
+}
+
+.nav2{
+    width: 18%;
+}
+
+.nav2 ul li{
+    list-style: none;
+    font-size: 25px;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.nav2 ul li a{
+    text-decoration: none;
+    color: blue;
+    text-align: justify;
+}
+
+.nav2 ul li a:hover{
+    color: darkblue;
+}
+
+
+/* mid section end */
+
+/* card section start */
+.main-box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 180px;
+}
+
+.box{
+    width: 25%;
+    border: 2px solid grey;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.b1-heading{
+    border-bottom: 1px solid lightgrey;
+    background-color: rgb(243, 242, 242);
+    padding: 5px 10px;
+}
+
+.sub-heading h3{
+    padding: 10px 10px;
+    color: rgb(105, 104, 104);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.sub-heading p{
+    padding: 0 10px 10px 10px;
+    color: grey;
+    font-size: 18px;
+}
+
+
+/* card section end */
